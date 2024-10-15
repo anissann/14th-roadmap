@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    height: auto;
+    padding: 30px;
+}
+
+.headphones {
+    width: 250px;
+    height: auto;
+    margin-top: -100px;
+    margin-left: -20px;
+
+}
+
+.heart, .scales {
+    width: 30px;
+    height: auto;
+}
+
+p, span, button {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.free_shipping {
+    background-color: rgb(0, 0, 76);
+    border-radius: 15px;
+    padding: 6px 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.pcolor, .pcolor_size, .pcolor_also_size {
+     color: rgb(0, 0, 76);
+}
+
+.pcolor_size {
+    font-size: 13px;
+    margin-bottom: -10px;
+    text-decoration: line-through;
+}
+
+.pcolor_also_size {
+    font-size: 36px;
+    margin-top: 15px;
+}
+
+.pcolor {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.valid {
+    font-size: 10px;
+    color: rgba(0, 0, 48, 0.313);
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.buttonone {
+    width: 275px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.greencircle {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.divone {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.scalesbutton, .heartbutton {
+   width: 158px;
+   height: 30px;
+   font-size: 10px;
+   border: none;
+   border-radius: 3px;
+   margin-top: 10px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scales, .heart {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.spanfifty {
+    font-size: 11px;
+}
